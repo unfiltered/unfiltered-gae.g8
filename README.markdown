@@ -3,7 +3,7 @@ A [giter8][g8] template for [Google App Engine][gae] [Unfiltered][unfiltered] ap
 
 ## install
 
-Build with [sbt 0.11.x][sbt]
+Build with [sbt][sbt]
 
     # download and copy google app engines sdk to /path/to/your/gae-home
     export APPENGINE_SDK_HOME=/path/to/your/gae-home
@@ -20,10 +20,8 @@ Point your browser at http://localhost:8080/
 
 * yaml configs - http://code.google.com/appengine/docs/java/configyaml/appconfig_yaml.html
 
-[sbt]: https://github.com/harrah/xsbt/wiki
-[eed3si9n]: https://github.com/eed3si9n/
+[sbt]: http://www.scala-sbt.org/
 [gaesbt]: https://github.com/sbt/sbt-appengine
-[g8]: http://github.com/n8han/giter8#readme
+[g8]: http://github.com/foundweekends/giter8#readme
 [unfiltered]: http://github.com/unfiltered/unfiltered#readme
-[gae]: http://code.google.com/appengine/
-[webplugin]: https://github.com/siasia/xsbt-web-plugin#readme
+[gae]: https://cloud.google.com/appengine/

@@ -4,11 +4,13 @@ name := "$name$"
 
 version := "$version$"
 
-seq(appengineSettings: _*)
+scalaVersion := "$scala_version$"
+
+appengineSettings
 
 libraryDependencies ++= Seq(
   "net.databinder" %% "unfiltered-filter" % "$unfiltered_version$",
-  "net.databinder" %% "unfiltered-spec" % "$unfiltered_version$" % "test"
+  "net.databinder" %% "unfiltered-specs2" % "$unfiltered_version$" % "test"
   // uncomment the following line for persistence
   //, val jdo = "javax.jdo" % "jdo2-api" % "2.3-ea"
 ) ++ Seq( // local testing

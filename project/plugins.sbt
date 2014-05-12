@@ -1,1 +1,1 @@
-addSbtPlugin("net.databinder" % "giter8-plugin" % "0.4.0")
+addSbtPlugin("org.foundweekends.giter8" % "sbt-giter8" % "0.7.1")

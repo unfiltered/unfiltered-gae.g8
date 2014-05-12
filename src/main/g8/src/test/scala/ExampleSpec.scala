@@ -1,10 +1,10 @@
 package $org_id$
 
-import org.specs._
+import org.specs2.mutable.Specification
 
-import dispatch._
+import dispatch.classic._
 
-object ExampleSpec extends Specification with unfiltered.spec.jetty.Served {
+object ExampleSpec extends Specification with unfiltered.specs2.jetty.Served {
   
   import dispatch._
   
