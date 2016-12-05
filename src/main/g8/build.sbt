@@ -33,13 +33,3 @@ libraryDependencies ++= Seq(
   "javax.servlet" % "servlet-api" % "2.3" % "provided",
    "org.eclipse.jetty" % "jetty-webapp" % "7.4.5.v20110725" % "container"
 )
-
-resolvers ++= Seq(
- "jboss" at  "https://repository.jboss.org/nexus/content/groups/public/"
-  // app engine repo, uncomment the following line for persistence resolver
-  //, "nexus" at "http://maven-gae-plugin.googlecode.com/svn/repository/"
-)
-
-
-
-
